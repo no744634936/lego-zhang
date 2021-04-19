@@ -1,0 +1,9 @@
+npm i -g @imooc-cli/core
+
+mkdir lego
+
+cd lego
+
+imooc-cli init
+
+npm i --save ant-design-vue@next
