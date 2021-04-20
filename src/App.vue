@@ -1,30 +1,26 @@
 <template>
-  <h1>慕课乐高标准模版</h1>
-  <ul>
-    <li>开箱即用</li>
-    <li>typescript</li>
-    <li>Vue3</li>
-    <li>支持 tsx</li>
-    <li>eslint</li>
-    <li>简单易用可扩展</li>
-  </ul>
-    <a-button type="primary">
-        Primary
-    </a-button>
+  <TemplateDetail/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-
+// import Home from './views/Home.vue';
+// import Editor from './views/Editor.vue';
+import TemplateDetail from './views/TemplateDetail.vue';
 export default defineComponent({
   name: 'App',
+  components:{
+    // Home,
+    // Editor,
+    TemplateDetail
+  },
   setup(){
       console.log("test");
   }
 });
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -7,3 +7,4 @@ cd lego
 imooc-cli init
 
 npm i --save ant-design-vue@next
+
