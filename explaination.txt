@@ -8,3 +8,5 @@ imooc-cli init
 
 npm i --save ant-design-vue@next
 
+npm i --save vue-router@next
+
